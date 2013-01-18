@@ -9,6 +9,10 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSDictionary.h>
 
+#include <cybergarage/upnp/cdevice.h>
+#include <cybergarage/upnp/cservice.h>
+#include <cybergarage/upnp/cicon.h>
+
 #if !defined(_CG_UPNP_CDEVICE_H_)
 typedef void CgUpnpDevice;
 #endif

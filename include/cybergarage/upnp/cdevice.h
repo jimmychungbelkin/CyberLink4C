@@ -261,7 +261,7 @@ void cg_upnp_device_setdevicenode(CgUpnpDevice *dev, CgXmlNode *node);
  *
  * \param dev Device in question
  */
-#define cg_upnp_device_getdevicenode(dev) (dev->deviceNode)
+#define cg_upnp_device_getdevicenode(dev) (((CgUpnpDevice *)dev)->deviceNode)
 
 /**
  * Check whether the given device contains a list of root nodes

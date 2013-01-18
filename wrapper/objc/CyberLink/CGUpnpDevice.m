@@ -6,9 +6,6 @@
 //  Copyright 2008 Satoshi Konno. All rights reserved.
 //
 
-#include <cybergarage/upnp/cdevice.h>
-#include <cybergarage/upnp/cservice.h>
-#include <cybergarage/upnp/cicon.h>
 
 #import "CGUpnpDevice.h"
 #import "CGUpnpService.h"

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B7E06B216A8B51F005E552A /* CGUpnpDevice+Belkin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7E06B116A8B51F005E552A /* CGUpnpDevice+Belkin.h */; };
+		0B7E06B516A8B529005E552A /* CGUpnpDevice+Belkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E06B416A8B529005E552A /* CGUpnpDevice+Belkin.m */; };
 		21529DFD14226D530099BAB1 /* CGUpnpAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 21529DF114226D530099BAB1 /* CGUpnpAction.h */; };
 		21529DFE14226D530099BAB1 /* CGUpnpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 21529DF214226D530099BAB1 /* CGUpnpAction.m */; };
 		21529DFF14226D530099BAB1 /* CGUpnpControlPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 21529DF314226D530099BAB1 /* CGUpnpControlPoint.h */; };
@@ -155,6 +157,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B7E06B116A8B51F005E552A /* CGUpnpDevice+Belkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CGUpnpDevice+Belkin.h"; path = "../../../wrapper/objc/CyberLink/CGUpnpDevice+Belkin.h"; sourceTree = "<group>"; };
+		0B7E06B416A8B529005E552A /* CGUpnpDevice+Belkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CGUpnpDevice+Belkin.m"; path = "../../../wrapper/objc/CyberLink/CGUpnpDevice+Belkin.m"; sourceTree = "<group>"; };
 		21529DF114226D530099BAB1 /* CGUpnpAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGUpnpAction.h; path = ../../../wrapper/objc/CyberLink/CGUpnpAction.h; sourceTree = "<group>"; };
 		21529DF214226D530099BAB1 /* CGUpnpAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGUpnpAction.m; path = ../../../wrapper/objc/CyberLink/CGUpnpAction.m; sourceTree = "<group>"; };
 		21529DF314226D530099BAB1 /* CGUpnpControlPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGUpnpControlPoint.h; path = ../../../wrapper/objc/CyberLink/CGUpnpControlPoint.h; sourceTree = "<group>"; };
@@ -365,6 +369,7 @@
 		21529DEF14226C6D0099BAB1 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				0B7E06B116A8B51F005E552A /* CGUpnpDevice+Belkin.h */,
 				21529DF114226D530099BAB1 /* CGUpnpAction.h */,
 				21529DF314226D530099BAB1 /* CGUpnpControlPoint.h */,
 				21529DF514226D530099BAB1 /* CGUpnpDevice.h */,
@@ -378,6 +383,7 @@
 		21529DF014226C790099BAB1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				0B7E06B416A8B529005E552A /* CGUpnpDevice+Belkin.m */,
 				21529DF214226D530099BAB1 /* CGUpnpAction.m */,
 				21529DF414226D530099BAB1 /* CGUpnpControlPoint.m */,
 				21529DF614226D530099BAB1 /* CGUpnpDevice.m */,
@@ -770,6 +776,7 @@
 				21529E0314226D530099BAB1 /* CGUpnpIcon.h in Headers */,
 				21529E0514226D530099BAB1 /* CGUpnpService.h in Headers */,
 				21529E0714226D530099BAB1 /* CGUpnpStateVariable.h in Headers */,
+				0B7E06B216A8B51F005E552A /* CGUpnpDevice+Belkin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -924,6 +931,7 @@
 				21529E0414226D530099BAB1 /* CGUpnpIcon.m in Sources */,
 				21529E0614226D530099BAB1 /* CGUpnpService.m in Sources */,
 				21529E0814226D530099BAB1 /* CGUpnpStateVariable.m in Sources */,
+				0B7E06B516A8B529005E552A /* CGUpnpDevice+Belkin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
